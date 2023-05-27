@@ -1,0 +1,170 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(224, 223, 189);
+}
+
+.contenido{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(172, 170, 132);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.titulos {
+    color: rgb(197, 42, 42);
+    font-size: xx-large;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.ItemDeExp{
+    color: rgb(58, 58, 58);
+    font-size: 30px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#navbar{
+    background-color: rgb(165, 162, 127)!important;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(172, 170, 132);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgb(58, 58, 58);
+    background-color: rgb(172, 170, 132);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    object-fit: contain;
+  }
+  
+  .image-wrapper {
+    width: 20%;
+    text-align: center;
+    margin: 10px;
+    /*height: 100%;*/
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    object-fit: contain;
+  }
+  
+  .image-wrapper img {
+    width: 60%;
+    height: auto;
+    border-radius: 35%;
+    object-fit: contain;
+
+  }
+  
+  .image-text {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #be0a0a;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+
+.form-group{
+    width: 100%;
+    margin: 10px;
+    align-items: center;
+    width: 100%;
+    /*height: 100%;*/
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.image-wrapper:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+p{
+font-size: x-large;
+
+}
+.formContacto{
+/*use the exact same format as footer, they should look exactly alike*/
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgb(58, 58, 58);
+    background-color: rgb(172, 170, 132);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+   
+    
+}
+
+#contact{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgb(58, 58, 58);
+    background-color: rgb(172, 170, 132);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    
+}
+
+.footer{
+    /*make it more aesthetic by aligning texts to the center and changing fonts */
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgb(58, 58, 58);
+    background-color: rgb(172, 170, 132);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.btn-footer{
+    background-color: rgb(56, 69, 250);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
